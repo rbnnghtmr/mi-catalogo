@@ -1,0 +1,32 @@
+.vistas {
+    position: relative;
+    top: -29.5px;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: #F2D388;
+    width: 100%;
+    height: 50px; 
+    align-items: center;
+
+    
+}
+
+.contenido{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+}
+
+.lista{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: solid 4px #874C62;
+}
+.tabla{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: solid 4px #874C62;
+}
