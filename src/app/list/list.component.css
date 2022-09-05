@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: #CCCCCC;
+    padding: 15px;
+}
+
+.nav__section {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.catalogo {
+    padding: 0 100px;
+}
+
+.catalogo__item--ojo {
+    cursor: pointer;
+}
+
+.catalogo__item {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #CCCCCC;
+    margin: 20px ;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
